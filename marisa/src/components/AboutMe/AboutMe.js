@@ -1,15 +1,12 @@
 import './AboutMe.css';
 import React from 'react';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 import authorImage from '../../images/main-info-image.jpg';
 import dessertImage from '../../images/main-bg.jpg';
 
 function AboutMe() {
     return (
-        <div className='wrapper'>
-            <Header />
-            <main className='main'>
+        <main className='main'>
+            <div className='wrapper'>
                 <section className='about-me'>
                     <div className='about-me__info about-me__info_left'>
                         <img
@@ -61,9 +58,8 @@ function AboutMe() {
                         </div>
                     </div>
                 </section>
-            </main>
-            <Footer />
-        </div>
+            </div>
+        </main>
     );
 }
 

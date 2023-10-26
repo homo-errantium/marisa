@@ -1,7 +1,5 @@
 import './Contacts.css';
 import React from 'react';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 import cherryCakeImage from '../../images/main-info-image.jpg';
 import logoVk from '../../images/vkontakte-image5.svg';
 import logoTelegram from '../../images/telegram-image5.svg';
@@ -11,17 +9,9 @@ import logoWhatsapp from '../../images/whatsapp-image5.svg';
 
 function Contacts() {
     return (
-        <div className='wrapper'>
-            <Header />
-            <main className='main'>
+        <main className='main'>
+            <div className='wrapper'>
                 <section className='contacts'>
-                    {/* <div className='contacts__image-wrapper'>
-                        <img
-                            src={contactsImage}
-                            alt='фото десерта'
-                            className='contacts__image-top'
-                        />
-                    </div> */}
                     <div className='contacts__info contacts__info_left'>
                         <img
                             src={cherryCakeImage}
@@ -110,51 +100,11 @@ function Contacts() {
                                     </a>
                                 </li>
                             </ul>
-                            {/* <p className='contacts__info-description'>
-                                Чтобы купить десерт звоните по телефону
-                                <a
-                                    className='contacts__info-link'
-                                    href='tel:+79534861552'
-                                    target='_blank'
-                                    rel='noreferrer'
-                                >
-                                    8 953 486 15 52
-                                </a>
-                                . Вы также можете написать мне в
-                                <a
-                                    className='contacts__info-link'
-                                    href='https://web.telegram.org/k/#2029570170'
-                                    target='_blank'
-                                    rel='noreferrer'
-                                >
-                                    Telegram
-                                </a>
-                                или в
-                                <a
-                                    className='contacts__info-link'
-                                    href='https://web.telegram.org/k/#2029570170'
-                                    target='_blank'
-                                    rel='noreferrer'
-                                >
-                                    WhatsApp
-                                </a>
-                                . Можете сделать заказ оставив заявку через
-                                <a
-                                    className='contacts__info-link'
-                                    href='mailto:lunatik89@mail.ru&cc=homo.errantium@gmail.com?body=Привет, вопрос по поводу торта:'
-                                    target='_blank'
-                                    rel='noreferrer'
-                                >
-                                    электронную почту
-                                </a>
-                                .
-                            </p> */}
                         </div>
                     </div>
                 </section>
-            </main>
-            <Footer />
-        </div>
+            </div>
+        </main>
     );
 }
 

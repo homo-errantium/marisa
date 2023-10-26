@@ -1,17 +1,13 @@
 import './Menu.css';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 import MenuContent from '../MenuContent/MenuContent';
 
-function Menu() {
+function Menu(props) {
     return (
-        <div className='wrapper'>
-            <Header />
-            <main className='main'>
-                <MenuContent />
-            </main>
-            <Footer />
-        </div>
+        <main className='main'>
+            <div className='wrapper'>
+                <MenuContent onCardClick={props.onCardClick} />
+            </div>
+        </main>
     );
 }
 

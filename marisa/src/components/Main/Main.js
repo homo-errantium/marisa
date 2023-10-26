@@ -1,21 +1,13 @@
 import './Main.css';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 import MainTop from '../MainTop/MainTop';
-import MainMiddle from '../MainMiddle/MainMiddle';
 import MainBottom from '../MainBottom/MainBottom';
 
-function Main() {
+function Main({ onAddCake }) {
     return (
-        <div className='wrapper'>
-            <Header />
-            <main className='main'>
-                <MainTop />
-                <MainMiddle />
-                <MainBottom />
-            </main>
-            <Footer />
-        </div>
+        <main className='main'>
+            <MainTop />
+            <MainBottom onAddCake={onAddCake} />
+        </main>
     );
 }
 

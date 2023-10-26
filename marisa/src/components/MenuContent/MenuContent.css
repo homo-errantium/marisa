@@ -9,10 +9,11 @@
 .menu-content__title {
     font-size: 30px;
     font-weight: 600;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+    /* text-transform: uppercase; */
+    margin-bottom: 50px;
     max-width: 500px;
+    text-align: center;
+    color: #4d220e;
 }
 
 .menu-content__subtitle {
