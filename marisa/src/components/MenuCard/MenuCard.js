@@ -1,7 +1,7 @@
 import React from 'react';
 import './MenuCard.css';
 
-function MenuCard({ key, card, onCardClick }) {
+function MenuCard({ card, onCardClick }) {
     let cardName = require(`../../images/${card.name}.jpg`);
     card.link = cardName;
     function handleClick() {

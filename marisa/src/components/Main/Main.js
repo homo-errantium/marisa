@@ -1,3 +1,4 @@
+import React from 'react';
 import './Main.css';
 import MainTop from '../MainTop/MainTop';
 import MainBottom from '../MainBottom/MainBottom';

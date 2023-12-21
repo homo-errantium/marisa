@@ -45,7 +45,7 @@ function AboutMe() {
                                 МОЯ СПЕЦИАЛЬНОСТЬ
                             </h2>
                             <h3 className='about-me__info-subtitle'>
-                                Попробуйте десрты ручной работы в Казани
+                                Попробуйте десерты ручной работы в Казани
                             </h3>
                             <p className='about-me__info-description'>
                                 Каждый тортик я делаю с душой и подхожу

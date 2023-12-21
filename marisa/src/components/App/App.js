@@ -30,7 +30,7 @@ function App() {
         console.log(isAddCakePopupOpen);
     }
 
-    function handleAddCakeSubmit(data) {
+    function handleAddCakeSubmit() {
         alert('Письмо отправлено');
     }
 

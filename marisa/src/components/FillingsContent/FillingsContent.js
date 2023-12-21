@@ -1,3 +1,4 @@
+import React from 'react';
 import './FillingsContent.css';
 import cheeseCakeImage from '../../images/gallery1.jpg';
 import brownyImage from '../../images/gallery2.jpg';

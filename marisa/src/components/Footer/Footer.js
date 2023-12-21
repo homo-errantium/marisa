@@ -1,3 +1,4 @@
+import React from 'react';
 import './Footer.css';
 import logoVk from '../../images/vkontakte-image5.svg';
 import logoTelegram from '../../images/telegram-image5.svg';

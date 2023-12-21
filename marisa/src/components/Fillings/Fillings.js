@@ -1,3 +1,4 @@
+import React from 'react';
 import './Fillings.css';
 import FillingsContent from '../FillingsContent/FillingsContent';
 

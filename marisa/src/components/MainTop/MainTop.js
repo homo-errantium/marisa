@@ -1,4 +1,5 @@
 import './MainTop.css';
+import React from 'react';
 
 function MainTop() {
     return (
